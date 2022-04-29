@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>ORDER FORM</title>
+
+    </head>
+    <body>
+        <link rel="stylesheet" type="text/css" href="MORENO_IMAGES_ITAD/MORENO_pizzaOrderFormDesign_SECTION.css">
+        <form action="https://morenojoanhazel.github.io/FINALS-MORENO-ITAD/OrderFormSubmit.html" method="get">
+            <div align="center">
+                <fieldset>
+                    <h1>CUSTOMER INFORMATION</h1>
+                    <div>
+                        <label for="name" class="personal">Name:</label>
+                        <input type="text" name="name" id="name" placeholder="Type your fullname here" required>
+
+                        <label for="address" class="personal">Complete Address:</label>
+                        <input type="address" name="address" id="address" placeholder="Type your address here" required>
+
+                        <label for="contact" class="personal">Contact Number:</label>
+                        <input type="contact" name="contact" id="contact" required >
+                      
+                        <label for="email" class="personal">Email:</label>
+                        <input type="email" name="email" id="email" placeholder="Email" required>
+                      
+                        <label for="comment" class="personal">How to Get to the Place</label>
+                        <textarea id="comment" name="comment"></textarea>
+                    </div>
+                      <br><br>
+                    
+                    <h1 id="order">ORDER FORM</h1>
+                    <div align="center" class="menu">
+                        <div class="samp">
+                            <input type="checkbox" id="burger">                            
+                            <label for="burger" class="burgers">BURGER</label> 
+                        </div>
+                        <div class="samp">
+                            <input type="checkbox" id="pasta">                                             
+                            <label for="pasta" class="burgers">PASTA</label> 
+                        </div>
+                        <div class="samp">     
+                            <input type="checkbox"id="fries">                          
+                            <label for="fries" class="burgers">FRIES</label> 
+                        </div>           
+                        <div class="samp">        
+                            <input type="checkbox" id="drinks">                           
+                            <label for="drinks" class="burgers">DRINKS</label> 
+                        </div>  
+                        <div>
+                            <div class="menu2">
+                                <a href="#burgerto"><img src="MORENO_IMAGES_ITAD/burger.gif" class="burgerpicture"></a>
+                            </div>
+                           <div  class="menu2">
+                            <a href="#pastato"><img src="MORENO_IMAGES_ITAD/pasta.gif" class="burgerpicture"></a> 
+                           </div>
+                        </div>
+                        <div>
+                            <div  class="menu2">
+                                <a href="#friesto"><img src="MORENO_IMAGES_ITAD/fries.gif" class="burgerpicture"></a>
+                            </div>
+                            <div  class="menu2">
+                                <a href="#drinksto"><img src="MORENO_IMAGES_ITAD/drinks.gif" class="burgerpicture"></a>
+                            </div>  
+                        </div>  
+                    </div>
+                    <div id="burgerto">
+                          <h2>BURGER</h2>
+                          <div>
+                              <div class="burger1">
+                                <input type="radio" name="patty" value="singlepatty" id="single">
+                                <img src="MORENO_IMAGES_ITAD/icons8-hamburger-48.png" class="add">
+                               <label for="single" class="burg">Single patty</label>
+                              </div>
+                              <div>
+                                <input type="radio" name="patty" value="singlepatty" id="double">
+                                <img src="MORENO_IMAGES_ITAD/doublepatty.png" class="add">
+                               <label for="double" class="burg">Double Patty</label>
+                              </div>
+                          </div>                                                   
+                    <div>
+                        <h4>Adds on:</h4>
+                            <div>
+                                <div class="adds">
+                                    <img src="MORENO_IMAGES_ITAD/cheese.png" class="add">
+                                    <input type="checkbox" name="cheese" id="cheese">
+                                    <label for="cheese" class="burg">Cheese</label> 
+                                </div>
+                                <div class="adds">
+                                    <img src="MORENO_IMAGES_ITAD/ColeSlaw_PDP.png" class="add">
+                                    <input type="checkbox" name="coleslaw" id="coleslaw">
+                                    <label for="coleslaw" class="burg">Coleslaw</label>     
+                                </div>
+                                <div class="adds">
+                                    <img src="MORENO_IMAGES_ITAD/tomato.png" class="add">
+                                    <input type="checkbox" name="tomato" id="tomato">
+                                    <label for="tomato" class="burg">Tomato</label> 
+                                </div>                
+                            </div>
+                            <div>
+                                <div class="adds">
+                                    <img src="MORENO_IMAGES_ITAD/onion.png" class="add">
+                                    <input type="checkbox" name="onion" id="onion">
+                                    <label for="onion" class="burg">Onion</label> 
+                                </div>
+                                <div class="adds">
+                                    <img src="MORENO_IMAGES_ITAD/cucumber.png" class="add">
+                                    <input type="checkbox" name="cucumber" id="cucumber">
+                                    <label for="cucumber" class="burg">Cucumber</label>
+                                </div> 
+                                 <div class="adds">
+                                    <img src="MORENO_IMAGES_ITAD/bacon.png" class="add">
+                                    <input type="checkbox" name="bacon" id="bacon">
+                                    <label for="bacon" class="burg">Bacon</label> 
+                                 </div> 
+                            </div>
+                        </div>
+                        <br><br><br>
+                        <div>          
+                            <img src="MORENO_IMAGES_ITAD/Bun-PNG-Image-File.png" class="add">
+                            <h4>Choice of Bun</h4>
+                            <div>
+                                <div>
+                                    <div class="choices">
+                                        <input type="radio" name="bun" value="wheatbun" id="wheat">
+                                        <label for="wheat" class="burg">Wheat Bun</label>                
+                                    </div>
+                                    <div class="choices">
+                                        <input type="radio" name="bun" value="whitebun" id="white">
+                                        <label for="white" class="burg">White Bun</label>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="choices">
+                                        <input type="radio" name="bun" value="honeyoat" id="honey">
+                                        <label for="honey" class="burg">Honey Oat</label>
+                                    </div>
+                                    <div class="choices">
+                                        <input type="radio" name="bun" value="sugarfree" id="sugar">
+                                        <label for="sugar" class="burg">Sugar Free</label>
+                                    </div>
+                                </div>
+                            </div>       
+                        </div>  
+                        <div class="quan" align="left">
+                            <label for="quantityvalue" class="quantity">Quantity:</label>
+                            <input type="number" id="quantityvalue" min="0" step="1" max="100">
+                        </div>
+                        <div align="right">
+                            <a href="#order"><img src="MORENO_IMAGES_ITAD/goup.png" class="goup"></a>
+                        </div>
+                    </div>
+                    <div id="pastato">
+                        <h2>PASTA</h2>
+                        <div>
+                            <h4>Select Sauce</h4>
+                            <div>
+                                <div class="adds">
+                                    <img src="MORENO_IMAGES_ITAD/carbonara.png" class="add">
+                                    <input type="radio" name="sauce" value="Carbonara" id="carbonara">
+                                    <label for="carbonara" class="burg">Carbonara</label>
+                                </div>
+                                
+                                <div class="adds">
+                                    <img src="MORENO_IMAGES_ITAD/pesto.png" class="add">
+                                    <input type="radio" name="sauce" value="Pesto" id="pesto">
+                                    <label for="pesto" class="burg">Pesto</label>
+                                </div>
+                                <div class="adds">
+                                    <img src="MORENO_IMAGES_ITAD/spaghetti.png" class="add">
+                                    <input type="radio" name="sauce" value="Spaghetti" id="spaghetti">
+                                    <label for="spaghetti" class="burg">Spaghetti</label>
+                                </div>              
+                            </div>
+                            <div>
+                                <div class="adds">
+                                    <img src="MORENO_IMAGES_ITAD/amatriciana.png" class="add">
+                                    <input type="radio" name="sauce" value="Amatriciana" id="amatriciana">
+                                    <label for="amatriciana" class="burg">Amatriciana</label>
+                                </div>
+                                <div class="adds">
+                                    <img src="MORENO_IMAGES_ITAD/pomodoro.png" class="add">
+                                    <input type="radio" name="sauce" value="Pomodoro" id="pomodoro">
+                                    <label for="pomodoro" class="burg">Pomodoro</label>
+                                </div>       
+                            </div>  
+                            <br><br><br>      
+                            <div>   
+                                <div class="adds">
+                                    <input type="checkbox" name="drinks" id="extracheese">
+                                    <img src="MORENO_IMAGES_ITAD/cheese1.png" class="add" >
+                                    <label for="extracheese" class="burg">Extra Cheese</label>
+                                </div>                         
+                                <div class="adds">
+                                    <input type="checkbox" name="drinks" id="extrasauce">
+                                    <img src="MORENO_IMAGES_ITAD/sauce.png" class="add">
+                                    <label for="extrasauce" class="burg">Extra Sauce</label>       
+                                </div>              
+                            </div>
+                            <div>
+                                <div class="adds">
+                                    <input type="checkbox" name="drinks" id="butternut">
+                                    <img src="MORENO_IMAGES_ITAD/butternut.png" class="add">
+                                    <label for="butternut" class="burg">Butternut</label>
+                                </div>
+                                <div class="adds">
+                                    <input type="checkbox" name="drinks" id="zucchini">
+                                    <img src="MORENO_IMAGES_ITAD/zuchinni.png" class="add">
+                                    <label for="zucchini" class="burg">Zucchini</label>
+                                </div>
+                            </div>     
+                            <br><br>                        
+                            <div class="quan" align="left">
+                                <label for="quantityvalue2" class="quantity">Pasta Per Box:</label>
+                                <input type="number" id="quantityvalue2" min="0" step="1" max="100">
+                            </div>
+                        </div>
+                        <div align="right">
+                            <a href="#order"><img src="MORENO_IMAGES_ITAD/goup.png" class="goup"></a>
+                        </div>
+                    </div>
+                    <div id="friesto">
+                        <h2>FRIES</h2>
+                        <div>
+                                <h4>Sizes:</h4>
+                                <img src="MORENO_IMAGES_ITAD/small.png" alt="">
+                                <img src="MORENO_IMAGES_ITAD/medium.png" alt="">
+                                <img src="MORENO_IMAGES_ITAD/large.png" alt="">
+
+
+                                <select name="locvisited" id="location">      
+                                    <option value="small">Small</option>
+                                    <option value="small">Medium</option>
+                                    <option value="Chinese">Large</option>    
+                                </select>   
+                        </div>
+                        <div>
+                            <h4>Flavor</h4>
+                            <div>
+                                <input type="radio" name="flavor" value="bbq" id="bbq">
+                                <label for="bbq" class="burg">BBQ</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="flavor" value="cheese" id="cheeses">
+                                <label for="cheeses" class="burg">CHEESE</label>
+    
+                            </div>
+                            <div>
+                                <input type="radio" name="flavor" value="sourcream" id="sourcream">
+                                <label for="sourcream" class="burg">SOUR CREAM</label>
+                            </div>              
+                        </div>
+                        <div class="quan" align="left">
+                            <label for="quantityvalue3" class="quantity">Quantity:</label>
+                            <input type="number" id="quantityvalue3" min="0" step="1" max="100">
+                        </div>
+                        <div align="right">
+                            <a href="#order"><img src="MORENO_IMAGES_ITAD/goup.png" class="goup"></a>
+                        </div>
+                    </div>
+                    <div id="drinksto">
+                        <h2>DRINKS</h2>                      
+                        <div>
+                            <h4>Select a Drink</h4>
+                            <div>
+                                <div class="adds">
+                                    <img src="MORENO_IMAGES_ITAD/pepsi (2).png" class="burgerpic">
+                                    <input type="radio" name="drinks" value="Pepsi" id="pepsi">
+                                    <label for="pepsi" class="burg">Pepsi</label>    
+                                </div>
+                                <div class="adds">
+                                    <img src="MORENO_IMAGES_ITAD/icedtea.png" class="burgerpic">
+                                    <input type="radio" name="drinks" value="Iced Tea" id="icedtea">
+                                    <label for="icedtea" class="burg">Iced Tea</label>
+                                </div>
+                                <div class="adds">
+                                    <img src="MORENO_IMAGES_ITAD/cola.png" class="burgerpic">
+                                    <input type="radio" name="drinks" value="Coke" id="coke">
+                                    <label for="coke" class="burg">Coke</label>      
+                                </div>
+                            </div>
+                            <br><br>
+                            <div>
+                                <div class="adds">
+                                    <img src="MORENO_IMAGES_ITAD/sprite.png" class="burgerpic">
+                                    <input type="radio" name="drinks" value="Sprite" id="sprite">
+                                    <label for="sprite" class="burg">Sprite</label>
+                                </div>
+                                <div class="adds">
+                                    <img src="MORENO_IMAGES_ITAD/orange.png" class="burgerpic">
+                                    <input type="radio" name="drinks" value="OrangeJuice" id="ornagejuice">                                  
+                                    <label for="ornagejuice" class="burg">Orange Juice</label>
+                                </div>
+                                <div class="adds">
+                                    <img src="MORENO_IMAGES_ITAD/icedcoffee.png" class="burgerpic">
+                                    <input type="radio" name="drinks" value="IcedCoffee" id="icedcoffee">                                  
+                                    <label for="icedcoffee" class="burg">Iced Coffee</label>
+                                </div>
+                            </div>                            
+                        </div>                    
+                        <div>
+                            <h4>Sizes</h4>                       
+                            <div>
+                                <input type="radio" name="sizedrinks" value="smalldrink" id="smalldrink">
+                                <img src="MORENO_IMAGES_ITAD/smalldrinks.png" class="burgerpic">
+                                <label for="smalldrink" class="burg">Small</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="sizedrinks" value="mediumdrinks" id="mediumdrinks">
+                                <img src="MORENO_IMAGES_ITAD/mediumdrinks.png" class="burgerpic">
+                                <label for="mediumdrinks" class="burg">Medium</label> 
+                            </div>
+                            <div>
+                                <input type="radio" name="sizedrinks" value="largedrinks" id="largedrinks">
+                                <img src="MORENO_IMAGES_ITAD/largedrinks.png" class="burgerpic">
+                                <label for="largedrinks" class="burg">Large</label>
+                            </div>                            
+                        </div>
+                        <div class="quan" align="left">
+                            <label for="quantityvalue4" class="quantity">Quantity:</label>
+                            <input type="number" id="quantityvalue4" min="0" step="1" max="100">
+                        </div>
+                        <div align="right">
+                            <a href="#order"><img src="MORENO_IMAGES_ITAD/goup.png" class="goup"></a>
+                        </div>
+                    </div>                   
+                    <div>
+                        <h2>DELIVERY</h2>
+                        <div>
+                            <div class="delivery1">
+                                <input type="radio" name="delivery" value="deliver" id="deliver">
+                                <label for="deliver" class="burg">Delivery</label>
+                            </div>
+                            <div class="delivery1">
+                                <input type="radio" name="delivery" value="pickup" id="pickup">
+                                <label for="pickup" class="burg">Pick-up</label>
+                            </div>                   
+                        </div>
+                    </div>
+                    <br><br>
+                    <div>
+                        <label for="comment" class="comment">Feedback</label>
+                        <br>
+                        <textarea id="comment" name="comment" placeholder="Give us a feedback how to improve our form"></textarea>
+                    </div>
+                    <br><br>
+                    <input type="submit" id="submit" name="submit" value="Submit Form">
+                    <input type="reset" id="clear" name="clear" value="Clear Form">
+                   
+                </fieldset>
+            </div>        
+        </form>
+
+    </body>
+</html>
